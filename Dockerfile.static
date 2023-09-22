@@ -1,0 +1,8 @@
+FROM php:7.2.6-apache
+RUN docker-php-ext-install mysqli
+# pdo_mysql package
+RUN docker-php-ext-install pdo pdo_mysql
+
+WORKDIR /var/www/html
+
+COPY www/. .

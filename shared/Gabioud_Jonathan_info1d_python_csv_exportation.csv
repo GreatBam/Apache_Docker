@@ -1,0 +1,19 @@
+"sep=;"
+id;Variable;Type;Resultat;Annotation;Date de creation
+1;int_var;<class 'type'>;457;nombre entier;2022-11-08
+2;float_var;<class 'float'>;37.45;nombre a virgules;2022-11-08
+3;maxint_var;<class 'int'>;9223372036854775807;nombre entier maximum;2022-11-08
+4;string_var;<class 'str'>;Hello world;considere comme texte;2022-11-08
+5;bool_var;<class 'bool'>;True;boolean, vrai ou faux;2022-11-08
+6;range_var;<class 'range'>;range(0, 4);intervalle de nombre;2022-11-08
+7;none_var;<class 'NoneType'>;;defini un type null;2022-11-08
+8;datetime_var;<class 'datetime.datetime'>;2023-01-19 09:04:02.907397;date et heure;2022-11-08
+9;list_var;<class 'list'>;['john', 'adam', 'benjamin'];liste (ici de nom);2022-11-08
+10;tuple_var;<class 'tuple'>;('john', 'adam', 'benjamin');tuple, comme une liste, mais non modifiable;2022-11-08
+11;dictionary_var;<class 'dict'>;{'name': 'john', 'age': 34};dictionnaire, list ordonee et modifiable, sans doublon;2022-11-08
+12;set_var;<class 'set'>;{'john', 'benjamin', 'adam'};set, sorte de list non ordonee, non modifiable et non indexee, sans doublon;2022-11-08
+13;string_bytes_var;<class 'bytes'>;b'Hello';text formate;2022-11-08
+14;number_bytes_var;<class 'bytes'>;b'Hello';nombre formate;2022-11-08
+15;bytearray_var;<class 'bytearray'>;bytearray(b'\x00\x00\x00\x00\x00');list de nombres formate;2022-11-08
+16;memoryview_var;<class 'memoryview'>;<memory at 0x000001C06DE6C640>;expose le protocole tampon du C;2022-11-08
+17;time_stamp;<class 'float'>;1674115442.9073973;timestamp, date depuis le 1 janvier 1970;2022-11-08
