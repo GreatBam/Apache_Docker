@@ -81,4 +81,3 @@ Note that if you put the folders in the directory BEFORE you build the container
 ## Credits
 
 Jonathan Gabioud
-"# Apache_Docker" 
